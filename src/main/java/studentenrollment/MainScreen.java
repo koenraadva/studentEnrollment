@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package studentEnrollment;
+package studentenrollment;
 
 import com.vaadin.navigator.Navigator;
 import com.vaadin.spring.annotation.SpringComponent;
@@ -24,13 +24,13 @@ import com.vaadin.ui.CustomComponent;
 import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.UI;
 
+import studentenrollment.views.AccessDeniedView;
+import studentenrollment.views.ErrorView;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.vaadin.spring.security.VaadinSecurity;
 import org.vaadin.spring.sidebar.components.ValoSideBar;
 import org.vaadin.spring.sidebar.security.VaadinSecurityItemFilter;
-
-import studentEnrollment.views.AccessDeniedView;
-import studentEnrollment.views.ErrorView;
 
 /**
  * Full-screen UI component that allows the user to navigate between views, and log out.

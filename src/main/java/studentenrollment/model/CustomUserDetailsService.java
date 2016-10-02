@@ -1,4 +1,4 @@
-package studentEnrollment.model;
+package studentenrollment.model;
 
 import java.util.ArrayList;
 import java.util.HashSet;

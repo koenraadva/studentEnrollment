@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package studentEnrollment.views;
+package studentenrollment.views;
 
 import java.util.List;
 
@@ -28,6 +28,12 @@ import com.vaadin.server.FontAwesome;
 import com.vaadin.spring.annotation.SpringView;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Button.ClickListener;
+
+import studentenrollment.Sections;
+import studentenrollment.forms.StudentForm;
+import studentenrollment.model.Student;
+import studentenrollment.model.StudentRepository;
+
 import com.vaadin.ui.Grid;
 import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.Label;
@@ -40,11 +46,6 @@ import org.springframework.security.access.annotation.Secured;
 import org.vaadin.dialogs.ConfirmDialog;
 import org.vaadin.spring.sidebar.annotation.FontAwesomeIcon;
 import org.vaadin.spring.sidebar.annotation.SideBarItem;
-
-import studentEnrollment.Sections;
-import studentEnrollment.forms.StudentForm;
-import studentEnrollment.model.Student;
-import studentEnrollment.model.StudentRepository;
 
 /**
  * View that is available for the administrator only.

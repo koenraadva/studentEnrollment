@@ -1,6 +1,4 @@
-package studentEnrollment.forms;
-
-import studentEnrollment.model.Student;
+package studentenrollment.forms;
 
 import com.vaadin.data.fieldgroup.PropertyId;
 import com.vaadin.data.validator.BeanValidator;
@@ -11,6 +9,8 @@ import com.vaadin.ui.GridLayout;
 import com.vaadin.ui.PopupDateField;
 import com.vaadin.ui.TextField;
 import com.vaadin.ui.VerticalLayout;
+
+import studentenrollment.model.Student;
 
 public class StudentForm extends GridLayout {
 	

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package studentEnrollment.views;
+package studentenrollment.views;
 
 import com.vaadin.data.fieldgroup.BeanFieldGroup;
 import com.vaadin.data.fieldgroup.FieldGroup.CommitException;
@@ -31,16 +31,16 @@ import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.Button.ClickEvent;
 import com.vaadin.ui.Button.ClickListener;
 
+import studentenrollment.Sections;
+import studentenrollment.forms.StudentForm;
+import studentenrollment.model.Student;
+import studentenrollment.model.StudentRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
 import org.vaadin.spring.security.VaadinSecurity;
 import org.vaadin.spring.sidebar.annotation.FontAwesomeIcon;
 import org.vaadin.spring.sidebar.annotation.SideBarItem;
-
-import studentEnrollment.Sections;
-import studentEnrollment.forms.StudentForm;
-import studentEnrollment.model.Student;
-import studentEnrollment.model.StudentRepository;
 
 /**
  * View that is available for all users.

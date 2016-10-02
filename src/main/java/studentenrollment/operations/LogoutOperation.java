@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package studentEnrollment.operations;
+package studentenrollment.operations;
 
 import com.vaadin.server.FontAwesome;
 import com.vaadin.spring.annotation.SpringComponent;
+
+import studentenrollment.Sections;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.vaadin.spring.security.VaadinSecurity;
 import org.vaadin.spring.sidebar.annotation.FontAwesomeIcon;
 import org.vaadin.spring.sidebar.annotation.SideBarItem;
-
-import studentEnrollment.Sections;
 
 /**
  * Operation that logs the user out.

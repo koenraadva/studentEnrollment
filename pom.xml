@@ -5,7 +5,7 @@
 
 	<groupId>com.konxsys</groupId>
 	<artifactId>studentEnrollment</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>studentEnrollment</name>
@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.2.5.RELEASE</version>
+		<version>1.4.0.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
@@ -56,27 +56,27 @@
 		<dependency>
 			<groupId>org.vaadin.spring.extensions</groupId>
 			<artifactId>vaadin-spring-ext-core</artifactId>
-			<version>0.0.7-SNAPSHOT</version>
+			<version>0.0.7.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.vaadin.spring.extensions</groupId>
 			<artifactId>vaadin-spring-ext-boot</artifactId>
-			<version>0.0.7-SNAPSHOT</version>
+			<version>0.0.7.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.vaadin.spring.extensions</groupId>
 			<artifactId>vaadin-spring-ext-security</artifactId>
-			<version>0.0.7-SNAPSHOT</version>
+			<version>0.0.7.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.vaadin.spring.addons</groupId>
 			<artifactId>vaadin-spring-addon-eventbus</artifactId>
-			<version>0.0.7-SNAPSHOT</version>
+			<version>0.0.7.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.vaadin.spring.addons</groupId>
 			<artifactId>vaadin-spring-addon-sidebar</artifactId>
-			<version>0.0.7-SNAPSHOT</version>
+			<version>0.0.7.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.vaadin.addon</groupId>

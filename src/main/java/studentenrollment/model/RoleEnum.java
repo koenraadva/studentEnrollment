@@ -1,7 +1,7 @@
 /**
  * 
  */
-package studentEnrollment.model;
+package studentenrollment.model;
 
 /**
  * @author koenraadva

@@ -1,4 +1,4 @@
-package studentEnrollment.model;
+package studentenrollment.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
